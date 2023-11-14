@@ -1,0 +1,423 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000232;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+  
+   font-size: 1.5em;
+}
+}
+
+
+
+h1{
+    color:#e47878;
+    font-variant: small-caps;
+}
+
+
+
+/* ==================nav================================ */
+nav {
+    background: none;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    right: 20%;
+    left: 20%;
+}
+nav div a {
+    text-decoration: none;
+    color: white; /* Text color for the site title */
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-right: 20px; /* Spacing between the title and navigation links */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Text color for the navbar links */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+nav ul li a:hover {
+    background-color: #da6363; /* Background color on hover */
+    color: #000232; /* Text color on hover (adjust as needed) */
+}
+
+@media only screen and (max-width: 1000px) {
+  nav {
+   
+    width: 90%;
+    right: 5%;
+    left: 5%;
+}
+}
+
+
+/* =====================BANNER=================== */
+
+.header-content{
+    margin-left: 20%;
+    margin-right: 20%;
+   
+}
+@media only screen and (max-width: 1000px) {
+  .header-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+header {
+    width: 100%;
+    height: 832px;
+    max-height: 85vh;
+    background-image: url('files/img/bannerimage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.32);
+    display: inline-grid;
+    align-content: center;
+  
+}
+
+h1.sitetitle {
+    font-size: 5rem;
+    width: 11em;
+}
+
+
+
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    margin:auto;
+    margin-bottom: 0;
+
+}
+
+.title-container{
+    display:flex;
+    text-align:right;
+    justify-content: right;
+}
+
+.contact-button{
+    text-decoration: none;
+    color: white; /* Text color for the navbar links */
+    padding: 20px 30px; /* Adjust the padding as needed */
+    transition: background-color 0.3s; /* Smooth transition for the background color */
+    background-color: #da6363;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-container{
+    margin:auto;
+    bottom:25%;
+    text-align:center;
+
+}
+
+.contact-button:hover{
+    background-color: #e47878;
+    transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+@media only screen and (max-width: 1000px) {
+
+  header{
+    height: 500px;
+  }
+  h1.sitetitle {
+    font-size: 3rem;
+    width: 100%;
+}
+
+.title-container{
+  display:flex;
+  text-align:center;
+  justify-content: center;
+}
+}
+/*===============main==================*/
+
+main h1{
+    color: #da6363;
+  position: relative;
+  top: 0.7em;
+  font-size: 4rem;
+  left: 6rem;
+  margin: 0;
+  transition:  0.3s ease-in-out;
+  width: fit-content;
+}
+
+main h1:hover{
+    letter-spacing: 0.1em;
+    color:#e47878;
+    transition: 0.3s ease-in-out;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.32);
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+
+main{
+  margin-left:0;
+  margin-right:0;
+}
+
+}
+
+.présentation, .réalisations, .compétences, .contact {
+   padding-top: 96px;
+   padding-right: 2rem;
+   padding-left:2rem;
+}
+
+.pres{
+    background-color: #110a40e8;
+    padding: 3em;
+    color: #ccc;
+    border-radius: 64px;
+    transition: 0.3s ease-in-out;
+ 
+  }
+
+  .pres div{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .pres:hover{
+    background-color: #1c125ee8;
+    transition: 0.3s ease-in-out;
+  }
+
+/* =====================expandable=================== */
+/* Initial styling for the expandable box */
+.expandable-box {
+    
+    overflow: hidden; /* Hide content initially */
+    border: 1px solid #110a40;
+    margin: 20px;
+    border-radius: 25px;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .expandable-box {
+    
+    overflow: hidden; /* Hide content initially */
+    border: none;
+    margin: 20px;
+    border-radius: 0
+    
+}
+  
+  }
+
+.box-title {
+    cursor: pointer;
+    background-color: #110a40e8;
+    color: #da6363;
+    padding: 10px;
+    margin: 0;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+  .box-title:hover{
+    background-color: #1c125ee8;
+    transition: 0.3s ease-in-out;
+  }
+.box-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Animation for expanding */
+}
+
+.box-content > p, .box-content > img, .box-content > div {
+    margin: 1rem;
+}
+
+.illustrations {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+  }
+
+  video{
+    margin:auto;
+  }
+
+  .images{
+    display: flex ;
+    justify-content: center;
+  }
+
+  .stats{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stat{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .outils{
+    border-left: solid 1px #979797;
+    border-right: solid 1px #979797;
+  }
+
+  i{
+    color:#da6363;
+    font-size:3rem;
+  }
+
+  a.lien{
+    font-weight: bold;
+    text-decoration: none;
+    color:#da6363;
+  }
+
+  a.lien:hover{
+    color:#e47878;
+  }
+
+  .titreCategorie{
+    text-align: center;
+    color: #da6363;
+  position: relative;
+  font-size: 4rem;
+  transition:  0.3s ease-in-out;
+}
+
+.titreCategorie:hover{
+    letter-spacing: 0.1em;
+    color:#e47878;
+    transition: 0.3s ease-in-out;
+}
+
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  justify-content: space-evenly;
+}
+
+main ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000232; /* Text color for the navbar links */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+main ul li a:hover {
+    color: #110a40; /* Text color on hover (adjust as needed) */
+}
+
+/*===============compétences=================*/
+.compgridcontainer{
+  display: flex;
+  justify-content: space-around;
+}
+.compGrid{
+  width: fit-content;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap:20px;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+  .compGrid{
+    width: 90vw;
+
+  }
+  
+  
+  }
+img.comp-logo {
+  width: 100%;
+  max-width: 150px;
+}
+
+
+
+.cv-button{
+  text-decoration: none;
+  color: white; /* Text color for the navbar links */
+  padding: 20px 30px; /* Adjust the padding as needed */
+  transition: background-color 0.3s; /* Smooth transition for the background color */
+  background-color: #da6363;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.cv-button:hover{
+  background-color: #e47878;
+  transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+.cv-container{
+  margin-top: 64px;
+}
+
+footer{
+    color:#ccc;
+    text-align: center;
+    margin-top: 128px;
+}
