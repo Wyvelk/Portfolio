@@ -199,6 +199,7 @@
                 <img class="comp-logo" alt=" Logo premiere pro" src="files/img/logos/premiere-pro.png">
                 <img class="comp-logo" alt=" Logo after effect" src="files/img/logos/after-effect.png">
                 <img class="comp-logo" alt=" Logo Blender" src="files/img/logos/Blender_logo_no_text.svg.png">
+                <img class="comp-logo" alt=" Logo Github" src="files/img/logos/github_PNG80-2765046503.png">
             </div>
         </div>
 
