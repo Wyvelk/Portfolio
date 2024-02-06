@@ -51,7 +51,7 @@
                 également s'exprimer dans mon domaine actuel, et un stage de 3 mois réalisé au japon m'ont permit
                 d'acquérir indépendance, ouverture d'esprit et adaptabilité.
             </div>
-            <div>Je recherche donc une alternance dès que possible pour l'année 2023/2024 dans le domaine du web afin de
+            <div>Je recherche donc un stage dès que possible pour l'année 2023/2024 dans le domaine du web afin de
                 compéter ma formation, d'acquérir de nouvelles compétences ainsi que d'enrichir mes connaissances.
             </div>
             <div>Passionné par les univers du numérique et de la création, doté d’une grande ouverture d’esprit, je suis
